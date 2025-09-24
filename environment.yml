@@ -1,0 +1,21 @@
+name: extrovert-ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scikit-learn
+      - joblib
+      - matplotlib
+      - seaborn
+      - streamlit
+      - fastapi
+      - uvicorn[standard]
+      - pydantic
+      - optuna
+      - pytest
+      - jupyter
